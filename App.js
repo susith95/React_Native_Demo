@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, StyleSheet, View } from 'react-native';
+import { StackNavigator,} from 'react-navigation';
 
 export default class ButtonBasics extends Component {
   _onPressButton() {
@@ -12,7 +13,7 @@ export default class ButtonBasics extends Component {
         <View style={styles.buttonContainer}>
           <Button
             onPress={this._onPressButton}
-            title="Press Me"
+            title="I changed it"
           />
         </View>
         <View style={styles.buttonContainer}>
